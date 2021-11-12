@@ -24,7 +24,7 @@ public class DateShifting
      driver.findElement(By.xpath("//*[local-name()='svg' and @class='t-all ml-2']")).click();
      Thread.sleep(2000);
      WebElement next=driver.findElement(By.xpath("//div[@class='flex-1 ta-right']//*[local-name()='svg' and @data-testid='rightArrow']"));
-    
+    System.out.println("Chetna Addition");
      next.click();
      Thread.sleep(2000);
      next.click();
